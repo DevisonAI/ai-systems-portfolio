@@ -6,7 +6,7 @@ Notes and demos from **Devison Kuhlmann** on Voice-AI, agent systems, and live A
 
 | Lab | What it proves | Verify |
 | --- | --- | --- |
-| [voice-turntaking-lab](https://github.com/DevisonAI/voice-turntaking-lab) | Duplex loop hop timing + failure stop rules | `python3 -m src.main --dry-run` |
+| [voice-turntaking-lab](https://github.com/DevisonAI/voice-turntaking-lab) | Duplex loop: **Deepgram → LLM → ElevenLabs** + hop latency + stop rules | `python3 -m src.main --dry-run --audio fixtures/hello.wav` |
 | [voice-agent-evals](https://github.com/DevisonAI/voice-agent-evals) | Golden-case agent harness | `python3 -m src.eval_runner cases/` |
 
 ## Contents
