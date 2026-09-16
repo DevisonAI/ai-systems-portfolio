@@ -2,6 +2,13 @@
 
 Notes and demos from **Devison Kuhlmann** on Voice-AI, agent systems, and live AV operations.
 
+## Flagship labs
+
+| Lab | What it proves | Verify |
+| --- | --- | --- |
+| [voice-turntaking-lab](https://github.com/DevisonAI/voice-turntaking-lab) | Duplex loop hop timing + failure stop rules | `python3 -m src.main --dry-run` |
+| [voice-agent-evals](https://github.com/DevisonAI/voice-agent-evals) | Golden-case agent harness | `python3 -m src.eval_runner cases/` |
+
 ## Contents
 
 1. [Voice-AI × live AV ops](artifacts/01-voice-ai-live-av-ops.md) — venue audio networking mapped to agent latency and reliability
